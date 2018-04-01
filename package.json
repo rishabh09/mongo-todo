@@ -1,0 +1,33 @@
+{
+  "name": "mongo-todo",
+  "version": "1.0.0",
+  "description": "Todo app with mongodb and express",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "lint-watch": "esw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabh09/mongo-todo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabh09/mongo-todo/issues"
+  },
+  "homepage": "https://github.com/rishabh09/mongo-todo#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "mongoose": "5.0.12"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-watch": "3.1.4",
+    "jest": "22.4.3"
+  }
+}
